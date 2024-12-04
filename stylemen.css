@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container{
+    width: 100%;
+    height: vh;
+    /* background-image: linear-gradient(rgb(146, 86, 146),rgb(146, 86, 146)); */
+    position: absolute;
+    display: flex;
+    padding:0 5%;
+    align-items: center;
+    justify-content: center;
+    background: fixed;
+    background-size:cover;
+    background-color:rgba(0,0,0,0.4);
+
+}
+nav{
+    width: 100%;
+    height: 100vh;
+}
+nav .logo{
+    width: 300px;
+    height: 80px;
+    /* background: black; */
+    margin-top: 5px;
+}
+ul{
+    list-style-type: none;
+    padding: 2px;
+    /* margin-right: 0px; */
+    font-size: 12px;
+    margin-top: -100px;
+    /* background-color: green; */
+    
+}
+li{
+    float: right;
+    color: black;
+}
+li a{
+    display: block;
+    padding: 8.5px;
+    font-size: 14px;
+    text-decoration:none;
+    color: rgb(203, 199, 199);
+    margin-top: -15px;
+    font-family: Arial;
+
+}
+li a:hover{
+    color: black;
+    text-decoration:solid;
+}
+.back-video{
+    position:absolute ;
+    /* width: 100%px; */
+    /* height: 100%; */
+    /* margin-left: -100px; */
+    right: 0;
+    /* padding: 0%; */
+    bottom: 0;
+    z-index: -1;
+
+}
+@media (min-aspect-ration:16/9){
+    .back-video{
+        width:100%;
+        height:auto;
+    }
+}
+@media (max-aspect-ration:16/9){
+    .back-video{
+        width:auto;
+        height:100%;
+    }
+}
+ol{
+    list-style-type:georgian;
+    font-size: 14px;
+    display:grid;
+    width: 200px;
+    height: 500px;
+    margin-top: 80px;
+
+}
+ol li a{
+    padding: 1.5%;
+    color: black;
+
+}
+ol li a:hover{
+    color: darkslategrey;
+    text-transform: lowercase;
+}
+.bag{
+    margin-top: 1000px;
+}
+.nav2{
+    list-style-type: none;
+    padding: 2px;
+    margin-left: 900px;
+    font-size: 12px;
+    margin-top: -30px;
+    border: 1px grey solid;
+    padding:10px;
+    width: 150px;
+    height: 50px;
+    padding-right: 20px;
+    
+
+
+}
+.li{
+    float: left;
+    color: black;
+    margin-left: 10px;
+
+}
+.li .a{
+    display: block;
+    padding: 8.5px;
+    font-size: 14px;
+    text-decoration:none;
+    color: rgb(203, 199, 199);
+    margin-top: -5px;
+    font-family: Arial;
+    padding-top: -5px;
+}

@@ -1,0 +1,39 @@
+.container{
+    background-image: url(boutique.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+ul{
+    list-style-type: none;
+    padding: 2px;
+    margin-right: 150px;
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+li{
+    float: right;
+    color: black;
+}
+li a{
+    display: block;
+    padding: 8.5px;
+    font-size: 18px;
+    text-decoration:none;
+    color: rgb(203, 199, 199);
+    margin-top: -15px;
+    font-family: Arial;
+
+}
+.agna{
+    background-color: rgba(245, 245, 220, 0.338);
+    color: rgb(49, 2, 2);
+    text-align: center;
+    margin-left: 400px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    padding-top: 50px;
+
+}
